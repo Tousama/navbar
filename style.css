@@ -1,1 +1,76 @@
-C:\Users\mgune\navbar-css
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+}
+
+.menu {
+    
+    position: relative;
+    width: 200px;
+    margin: 20px;
+    background: linear-gradient( #fff,#dddd );
+    border-radius: 4px;
+    
+}
+
+.menu-item.inactive {
+    display: none;
+}
+
+.menu-header {
+    font-weight: 600;
+    height: 50px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header span {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 12px 24px;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.menu-header:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a {
+    
+    display: block;
+    text-decoration: none;
+    transform-origin: 0 0;
+    transition: all 1s ease;
+    padding: 1em 1.5em;
+    color: #000000;
+   
+}
+
+a:hover {
+    background-color: gray;
+    color: white;
+    transition: all 0.4s ease;
+}
+
